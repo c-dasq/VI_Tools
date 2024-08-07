@@ -45,3 +45,14 @@ python3 dataset_report_generator.py url api_key dataset_id --files <number_of_fi
 - --start-date: (optional) the start date for filtering files (format: dd-MMM-yyyy)
 - --end-date: (optional) the end date for filtering files (format: dd-MMM-yyyy)
 - **if the optional parameters are not included, a report with the entire contents of the dataset will be generated.**
+
+## Licenses
+
+- **argparse**: Distributed under the [Python Software Foundation License Version 2](https://github.com/python/cpython/blob/main/LICENSE).
+- **cv2 (OpenCV)**: Distributed under the [Apache License 2.0](https://github.com/opencv/opencv/blob/master/LICENSE).
+- **matplotlib**: Distributed under the [Matplotlib License (BSD-style)](https://matplotlib.org/stable/project/license.html).
+- **opencv-python-headless**: Distributed under the [MIT License](https://github.com/opencv/opencv-python/blob/4.x/LICENSE.txt).
+master/LICENCE).
+mqtt.python/blob/master/LICENSE.txt).
+- **pandas**: Distributed under the [BSD 3-Clause License](https://github.com/pandas-dev/pandas/blob/main/LICENSE).
+- **requests**: Distributed under the [Apache License 2.0](https://github.com/psf/requests/blob/main/LICENSE).
