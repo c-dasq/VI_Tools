@@ -6,6 +6,39 @@ Here you can find a set of experimental tools; this code is provided as-is, with
 
 ---
 
+<h1 style="color: lightgreen;">LIST DATASETS</h1>
+
+This script lists all the datasets in an instance, allows to select one, and copies its dataset_id to the clipboard.
+
+### Requirements
+
+Python 3.6 or higher installed; the necessary packages can be installed via pip:
+
+```bash
+pip install requests pyperclip
+```
+
+### Usage
+
+Run the script with the following command:
+
+```bash
+python3 list_datasets.py url api-key
+```
+#### Parameters
+
+- url: the base URL of the API
+- api_key: the API key for authentication
+
+## Licenses
+
+- **pyperclip**: Distributed under the [BSD 3-Clause License](https://github.com/asweigart/pyperclip/blob/master/LICENSE.txt).
+- **requests**: Distributed under the [Apache License 2.0](https://github.com/psf/requests/blob/main/LICENSE).
+
+&nbsp;
+
+---
+
 <h1 style="color: lightcoral;">DATASET REPORT GENERATOR</h1>
 
 This script generates a comprehensive report for a dataset. It fetches data from the MVI API, processes the images and labels, and creates a detailed report in HTML, PDF, and Excel formats.
