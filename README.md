@@ -54,4 +54,5 @@ python3 dataset_report_generator.py url api_key dataset_id --files <number_of_fi
 - **opencv-python-headless**: Distributed under the [MIT License](https://github.com/opencv/opencv-python/blob/4.x/LICENSE.txt).
 master/LICENCE).
 - **pandas**: Distributed under the [BSD 3-Clause License](https://github.com/pandas-dev/pandas/blob/main/LICENSE).
+- **Pillow**: Distributed under the [Historical Permission Notice and Disclaimer (HPND)](https://github.com/python-pillow/Pillow/blob/main/LICENSE).
 - **requests**: Distributed under the [Apache License 2.0](https://github.com/psf/requests/blob/main/LICENSE).
